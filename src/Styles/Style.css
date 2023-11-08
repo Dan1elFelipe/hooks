@@ -1,0 +1,107 @@
+body{
+    background-color: #c2c5c7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contador {
+    font-size: 24px;
+    color: #0077b6;
+  }
+
+  .form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Añade esta propiedad */
+  }
+
+  .form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .form button:hover {
+    background-color: #005b96;
+  }
+
+  .btn1 {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #1b262c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn1:hover {
+    background-color: #0f4b6e;
+  }
+
+
+
+.si, .no {
+      padding: 20px;
+      background-color: #898681;
+      border: 1px solid #B9B8B6;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      margin: 10px;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: rgb(0, 0, 0);
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .coso {
+      width: 300px;
+      height: 300px;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+
+    .coso:hover {
+      transform: scale(1.05);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #2B2623;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #58534E;
+    }
