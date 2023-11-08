@@ -7,7 +7,7 @@ import "../src/Styles/Style.css"
 //los tales
 import {ElTal} from "./Routes/N1";
 import {ElUseEffect} from "./Routes/N2";
-import {App} from "./App";
+import {App} from './Components/App';
 import {ElUseReduce} from "./Routes/N4";
 import {ElUseMemo} from "./Routes/N5";
 import {ElUseRef} from "./Routes/N6";
