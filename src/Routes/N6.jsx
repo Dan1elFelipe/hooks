@@ -14,7 +14,7 @@ export const ElUseRef = () => {
  
     return (
         <div className="App">
-            <h1>Enter a number greater than 10</h1>
+            <h1>Ingresa un numero mayor a 10</h1>
             <input
               ref={count}
               type="text"

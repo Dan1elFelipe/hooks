@@ -13,7 +13,7 @@ export const ElUseMemo = () => {
     };
 
     const displayColor = useMemo(() => {
-        var now = new Date().getTime();
+        let now = new Date().getTime();
         while (new Date().getTime() < now + 1000);
         return color1 === "blue" ? "cool" : "hot";
     }, [color1]);

@@ -8,10 +8,12 @@ import "../src/Styles/Style.css"
 import {ElTal} from "./Routes/N1";
 import {ElUseEffect} from "./Routes/N2";
 import {App} from './Components/App';
-import {ElUseReduce} from "./Routes/N4";
 import {ElUseMemo} from "./Routes/N5";
+import {Lamemo} from "./Routes/Nnuevo";
 import {ElUseRef} from "./Routes/N6";
-import {ElUseCallback} from "./Routes/N7";
+import {Counter} from "./Routes/N4";
+import {ListaTareas} from "./Routes/Reduce";
+
 
 
 const router = createBrowserRouter([
@@ -29,20 +31,29 @@ const router = createBrowserRouter([
     },
     {
         path: "/reduce",
-        element: <ElUseReduce/>,
+        element: <Counter/>,
+    },
+    {
+        path: "/reducedos",
+        element: <ListaTareas/>,
     },
     {
         path: "/memo",
         element: <ElUseMemo/>,
     },
     {
+        path: "/memodos",
+        element: <Lamemo/>
+    },
+    {
         path: "/ref",
         element: <ElUseRef/>,
     },
+    /*
     {
         path: "/callback",
         element: <ElUseCallback/>,
-    },
+    },*/
 ]);
 
 
